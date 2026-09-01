@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruits Of Love</title>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <section class="header">
+        <a href="index.html">
+            <div class="logo">
+                <i class="fas fa-apple-alt"></i>
+                <ul>
+                    <li id="imbuto">imbuto</li>
+                    <li id="love">z'urukundo</li>
+                </ul>
+                <i class="fas fa-heart"></i>
+            </div>
+        </a>
+
+        <!-- Computer view Menu links -->
+        <div class="nav-links">
+            <li><a href="index.html" class="pc-menu" id="home">Home</a></li>
+            <li><a href="#about" class="pc-menu">About Us</a></li>
+            <li><a href="#activities" class="pc-menu">Activities</a></li>
+            <li><a href="#gallery" class="pc-menu">Gallery</a></li>
+            <li><a href="#members" class="pc-menu">Our Leaders</a></li>
+            <li><a href="#contact" class="pc-menu">Contact</a></li>
+        </div>
+        <div class="donate" id="donate" onclick="showHide()">Donate <i class="far fa-heart"></i></div>
+        <div class="show-menu" id="show-menu" onclick="showMenu()"><i class="fas fa-bars"></i></div>
+
+    </section>
+
+    <!-- Methods to donate -->
+    <section class="donate-methods" id="methods">
+        <div class="head">
+            <i class="far fa-heart"></i> You can donate with <li><i class="fas fa-times" id="close-donate"
+                    onclick="showHide()"></i></li>
+        </div>
+
+        <div class="methods">
+           <div class="account" id="momo">
+            <a href="tel:*182*8*1*1391480%23">
+                <div class="momo">
+                <div class="title">
+                    MoMo Pay
+                </div>
+                <div class="accountNumber">Code: 1391480</div>
+                <div class="accountName">Receiver:
+                    Eric
+                </div>
+            </div>
+                </a>
+           </div>
+
+    
+        <div class="account" id="lolc">
+            <div class="lolc">
+            <div class="title">
+                LOLC Unguka Bank
+            </div>
+            <div class="accountNumber">
+                Account Number: 10401004600010
+            </div>
+            <div class="accountName">
+                Account Name: Fruits Of Love
+            </div>
+        </div>
+        </div>
+                 
+                
+            
+
+
+        </div>
+
+        <div class="methods-details">
+            For MoMo Click on the button <p>
+            <p>
+            <ul>
+                <li>Receiver Name: Eric</li>
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- Mobile view Menu links -->
+    <section class="mobile-menu" id="mobile-menu">
+        <div class="content">
+            <div class="head">
+                <i class="fas fa-times" id="close-menu" onclick="showMenu()"></i>
+                <ul>
+                    <i class="far fa-heart"></i>
+                    <li class="fruits"> Fruits </li>
+                    <li class="love"> Of Love</li>
+                </ul>
+            </div>
+            <ul class="menu-links">
+                <li class="menu"><a href="index.html">Home</a></li>
+                <li class="menu"><a href="#about">About Us</a></li>
+                <li class="menu"><a href="#activities">Activities</a></li>
+                <li class="menu"><a href="#gallery">Gallery</a></li>
+                <li class="menu"><a href="#members">Our Leaders</a></li>
+                <li class="menu"><a href="#contact">Contact</a></li>
+                <li onclick="showHide()"><a href="#methods">Donate <i class="far fa-heart"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+<main id="main">
+    <!-- Hero section -->
+    <section class="hero">
+
+
+        <!-- Introduction of hero content -->
+        <div class="spread">
+            <div class="main">
+                <div class="title">
+                    <ul>
+                        <li class="imbuto">Imbuto</li>
+                        <li class="love">Z'urukundo</li>
+                    </ul>
+                </div>
+                <div class="desc">
+                    Spreading Love, Hope and Compassion
+                </div>
+
+                <div class="content">
+                    We are Youth-led Organization committed to building a better future for children and communities.
+                </div>
+
+                <div class="spreadButtons">
+                    <button class="join-us" id="join-us" onclick="showJoinCard()">Join Us <i
+                            class="fas fa-users"></i></button>
+
+                    <a href="/fol/about.html"><button class="learn-more" id="learn-more">Learn More <i
+                                class="fas fa-arrow-right"></i></button></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hero Motto decription card -->
+        <div class="motto">
+            <ul>
+                <li id="quote"><i class="fas fa-quote-left"></i></li>
+                <li>Our Motto</li>
+            </ul>
+            <div class="motto-eng">Our Diversity is our opportunity</div>
+
+            <div class="motto-kiny">/Ubudasa bwacu niyo mahirwe yacu</div>
+
+
+            <i class="far fa-heart"></i>
+
+        </div>
+    </section>
+
+    <!-- Section Links -->
+    <section class="links-content">
+        <div class="card" id="about">
+            <div class="head">
+                <i class="far fa-heart"></i>
+                <li>About Us</li>
+            </div>
+            <div class="details" id="aboutD">
+                Imbuto z'urukundo is a family of young people united by love and compassion. We support vulnerable
+                children and communities through service, education, and empowerment.
+            </div>
+            <a href="fol/about.html#about">Learn More</a>
+        </div>
+
+        <div class="card" id="activities">
+            <div class="head">
+                <i class="fas fa-tree"></i>
+                <li>Our Activities</li>
+            </div>
+            <div class="details">
+                <li><i class="far fa-circle-check"></i>Visiting and caring for children</li>
+                <li><i class="far fa-circle-check"></i>Charity and donation drivers</li>
+                <li><i class="far fa-circle-check"></i>Education support</li>
+                <li><i class="far fa-circle-check"></i>Community development</li>
+                <li><i class="far fa-circle-check"></i>Environment protection</li>
+
+            </div>
+            <a href="fol/about.html#activities">Learn More</a>
+        </div>
+        <div class="card" id="gallery">
+            <div class="head">
+                <i class="fas fa-camera"></i>
+                <li>Gallery</li>
+            </div>
+            <div class="gallery">
+
+                <div class="item big">
+                    <a href="6.jpg" target="_blank" rel="noopener noreferrer"><img src="6.jpg" alt=""></a>
+                </div>
+
+                <div class="item">
+                    <a href="3.jpg" target="_blank" rel="noopener noreferrer"><img src="3.jpg" alt=""></a>
+                </div>
+
+                <div class="item">
+                    <a href="4.jpg" target="_blank" rel="noopener noreferrer"><img src="4.jpg" alt=""></a>
+                </div>
+
+                <div class="item">
+                    <a href="5.jpeg" target="_blank" rel="noopener noreferrer"><img src="5.jpeg" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="1.jpg" target="_blank" rel="noopener noreferrer"><img src="1.jpg" alt=""></a>
+                </div>
+
+            </div>
+            <a href="https://amafoto16.pixieset.com/mycollection/" target="_blank">View More Photos</a>
+        </div>
+
+        <div class="card" id="members">
+            <div class="head">
+                <i class="fas fa-users"></i>
+                <li>Our Leaders</li>
+            </div>
+            <div class="row">
+                <ul>
+                    <li><img src="/leaders/Clement.jpeg" alt="Member image"></li>
+                    <li class="role">President</li>
+                    <li class="name">Clement</li>
+                </ul>
+                <ul>
+                    <li><img src="leaders/NIYONSHUTI Ethienne .jpeg" alt="Member image"></li>
+                    <li class="role">Vs President</li>
+                    <li class="name">NIYONSHUTI Ethienne</li>
+                </ul>
+                <ul>
+                    <li><img src="/leaders/Eric.jpeg" alt="Member image"></li>
+                    <li class="role">Secretary</li>
+                    <li class="name">GASIGWA Eric</li>
+                </ul>
+                <ul>
+                    <li><img src="/leaders/UMWIZA Addis Ketsia.jpeg" alt="Member image"></li>
+                    <li class="role">Assistant Secretary</li>
+                    <li class="name">UMWIZA Addis K</li>
+                </ul>
+                <ul>
+                    <li><img src="/leaders/Noella.jpeg" alt="Member image"></li>
+                    <li class="role">Social Affair</li>
+                    <li class="name">Noella</li>
+                </ul>
+                <ul>
+                    <li><img src="/leaders/Kevin.jpeg" alt="Member image"></li>
+                    <li class="role">Media & Communications</li>
+                    <li class="name">Kevin</li>
+                </ul>
+                <ul>
+                    <li><img src="/leaders/Hagenimana.jpeg" alt="Member image"></li>
+                    <li class="role">Financial Auditor</li>
+                    <li class="name">Hagenimana</li>
+                </ul>
+                <ul>
+                    <li><img src="/leaders/Uwonkunda Patience.jpeg" alt="Member image"></li>
+                    <li class="role">Advisor</li>
+                    <li class="name">Uwonkunda Patience</li>
+                </ul>
+                
+                <ul>
+                    <li><img src="/leaders/Tresor.jpeg" alt="Member image"></li>
+                    <li class="role">New Member Entry</li>
+                    <li class="name">HIRWA Tresor</li>
+                </ul>
+                <ul>
+                    <li><img src="/leaders/MUGISHA Belyse Tinah.jpeg" alt="Member image"></li>
+                    <li class="role">New Member Entry</li>
+                    <li class="name">MUGISHA Belyse T</li>
+                </ul>
+                
+
+
+            </div>
+            <a href="fol/about.html#leaders">Learn More</a>
+
+        </div>
+    </section>
+
+    <!-- statistics Section -->
+    <section class="statistics">
+        <div class="group">
+            <i class="fas fa-user"></i>
+            <ul>
+                <li class="number">150+</li>
+                <li class="name">Young Volunteers</li>
+            </ul>
+        </div>
+        <div class="group">
+            <i class="fas fa-heart"></i>
+            <ul>
+                <li class="number">20+</li>
+                <li class="name">Projects Completed</li>
+            </ul>
+        </div>
+        <div class="group">
+            <i class="fas fa-users"></i>
+            <ul>
+                <li class="number">2000+</li>
+                <li class="name">Lives Impacted</li>
+            </ul>
+        </div>
+        <div class="group">
+            <i class="fas fa-leaf"></i>
+            <ul>
+                <li class="number">5+</li>
+                <li class="name">Communities Served</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <!-- Social links Section -->
+    <section class="social-links">
+        <div class="group">
+            <h1>Contact Us</h1>
+            <div class="contacts" id="contact">
+               
+                <ul>
+                    
+                    <a target="_blank" href="tel:+250781723010"><i class="fas fa-phone"></i> +250 781 723 010</a>
+                    <a target="_blank" href="tel:+250786951706"><i class="fas fa-phone"></i> +250 786 951 706</a>
+                    <a target="_blank" href="tel:+250795450568"><i class="fas fa-phone"></i> +250 795 450 568</a>
+                    <a target="_blank" href="https://wa.me/+250786951706"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                    <a target="_blank" href="mailto: thefruitoflovefamily@gmail.com"><i class="fas fa-envelope"></i> Gmail</a>
+                    
+                </ul>
+            </div>
+        </div>
+
+        <div class="group">
+            <h1>Social Media</h1>
+            <ul>
+                <li><a target="_blank" href="https://www.instagram.com/fruitsoflove2023?"> <i class="fab fa-instagram"></i> Instagram:
+                        fruitsoflove2023</a></li>
+                <li><a target="_blank" href="https://youtu.be/IiTn5cCmQX4?si=cU6zID1H0Fi7QW4-"> <i class="fab fa-youtube"></i> Youtube: Fruits Of
+                        Love Official</a></li>
+                <li><a target="_blank" href="https://whatsapp.com/channel/0029Vb6WGap2ER6gyPqBRe3V"> <i class="fab fa-whatsapp" id="whatsApp"></i> WhatsApp Channle: Fruits Of Love
+                    </a></li>
+            </ul>
+        </div>
+
+        <div class="group" id="g-image">
+            <img src="5.jpeg" alt="" srcset="">
+        </div>
+
+        <div class="motto">
+            <ul>
+                <li id="quote"><i class="fas fa-quote-left"></i></li>
+                <li>Our Motto</li>
+            </ul>
+            <div class="motto-eng">Our Diversity is our opportunity</div>
+
+            <div class="motto-kiny">/Ubudasa bwacu niyo mahirwe yacu</div>
+
+
+            <i class="far fa-heart"></i>
+
+        </div>
+
+    </section>
+</main>
+
+    <!-- footer -->
+    <section class="footer">
+        <div class="content">
+            <div class="logo">
+                <i class="fas fa-apple-alt"></i>
+                <ul>
+                    <li id="imbuto">imbuto</li>
+                    <li id="love">z'urukundo</li>
+                </ul>
+                <i class="fas fa-heart"></i>
+            </div>
+            <div class="group">
+                Spreading Love, Hope and <li></li>Compassion to build a better <li></li>future for all.
+            </div>
+
+            <div class="group">
+                <h1>Quick Links</h1>
+                <div class="links">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#activities">Activities</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#members">Leaders</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="group">
+                <h1>Connect With Us</h1>
+                <div class="connect">
+                    <ul id="sociaLinks">
+                        <li><a target="_blank" href="https://www.instagram.com/fruitsoflove2023"> <i class="fab fa-instagram"></i></a></li>
+                        <li><a target="_blank" href="https://youtu.be/IiTn5cCmQX4?si=cU6zID1H0Fi7QW4-"> <i class="fab fa-youtube"></i></a></li>
+                        <li><a target="_blank" href="https://whatsapp.com/channel/0029Vb6WGap2ER6gyPqBRe3V"> <i class="fab fa-whatsapp"></i></a></li>
+                        <li><a target="_blank" href="https://www.tiktok.com/@fruits_of_love?_r=1&_t=ZS-96XdLd0JZY5"><i class="fab fa-tiktok"></i></a></li>
+                    </ul>
+
+                    <ul>
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:+250786951706">+250 786 951 706</a> /
+                        <a href="tel:+250795450568">+250 795 450 568</a>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyRight">
+            &copy 2024 Imbuto Z'urukundo. All Right Reserved.
+        </div>
+    </section>
+
+
+
+    <!-- Join us card -->
+    <section class="joinUs" id="joinCard">
+        <div class="head">
+            <li><i class="fas fa-users"></i>You can join us by</li><i class="fas fa-times" onclick="showJoinCard()" id="closeCard"></i>
+        </div>
+        <ul>
+            <li class="whatsapp"><a target="_blank" href="https://whatsapp.com/channel/0029Vb6WGap2ER6gyPqBRe3V"><i class="fab fa-whatsapp" id="whatsappIcon"></i>Following Our WhatsApp Channle</a></li>
+            <li class="instagram"><a target="_blank" href="https://www.instagram.com/fruitsoflove2023?"><i class="fab fa-instagram"></i>Following Us On Instagram</a></li>
+            <li class="tiktok"><a target="_blank" href="https://www.tiktok.com/@fruits_of_love?_r=1&_t=ZS-96XdLd0JZY5"><i
+                        class="fab fa-tiktok"></i>Following Us On Tiktok</a></li>
+            <li class="youtube"><a target="_blank" href="https://youtu.be/IiTn5cCmQX4?si=cU6zID1H0Fi7QW4-"><i class="fab fa-youtube"></i>Subscribing To Our Youtube Channle</a></li>
+           
+        </ul>
+    </section>
+
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
