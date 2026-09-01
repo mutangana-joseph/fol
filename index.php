@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,70 +28,89 @@
 
         <!-- Computer view Menu links -->
         <div class="nav-links">
-            <li><a href="index.html" class="pc-menu" id="home">Home</a></li>
+            <li><a href="index.php" class="pc-menu" id="home">Home</a></li>
             <li><a href="#about" class="pc-menu">About Us</a></li>
             <li><a href="#activities" class="pc-menu">Activities</a></li>
             <li><a href="#gallery" class="pc-menu">Gallery</a></li>
             <li><a href="#members" class="pc-menu">Our Leaders</a></li>
             <li><a href="#contact" class="pc-menu">Contact</a></li>
         </div>
-        <div class="donate" id="donate" onclick="showHide()">Donate <i class="far fa-heart"></i></div>
+        <div class="donate" id="donate" onclick="showDonationModal()">Donate <i class="far fa-heart"></i></div>
         <div class="show-menu" id="show-menu" onclick="showMenu()"><i class="fas fa-bars"></i></div>
 
     </section>
 
-    <!-- Methods to donate -->
-    <section class="donate-methods" id="methods">
-        <div class="head">
-            <i class="far fa-heart"></i> You can donate with <li><i class="fas fa-times" id="close-donate"
-                    onclick="showHide()"></i></li>
-        </div>
+   
 
-        <div class="methods">
-           <div class="account" id="momo">
-            <a href="tel:*182*8*1*1391480%23">
-                <div class="momo">
-                <div class="title">
-                    MoMo Pay
-                </div>
-                <div class="accountNumber">Code: 1391480</div>
-                <div class="accountName">Receiver:
-                    Eric
-                </div>
+    <!-- Donation model -->
+
+    <?php
+
+$amounts = [
+    1500,
+    2000,
+    5000,
+    10000,
+    15000,
+    20000
+];
+
+?>
+  
+    <div id="donationModel" class="donation-modal" >
+
+    <div class="donation-box">
+
+        <!-- Header -->
+        <div class="donation-header">
+
+            <div>
+                <h2>Choose Donation Amount</h2>
+                <p>Select an amount to donate using MoMo Pay  <strong>Sending to Eric </strong></p>
             </div>
-                </a>
-           </div>
 
-    
-        <div class="account" id="lolc">
-            <div class="lolc">
-            <div class="title">
-                LOLC Unguka Bank
+            <button
+                class="donation-close"
+                onclick="showDonationModal()"
+                aria-label="Close"
+            >
+                &times;
+            </button>
+
+        </div>
+
+
+        <!-- Cards -->
+        <div class="donation-content">
+
+            <div class="donation-cards">
+
+                <?php foreach ($amounts as $amount): ?>
+
+                    <a
+                        href="tel:*182*8*1*1391480*<?= $amount ?>%23"
+                        class="donation-card"
+                    >
+
+                        <span class="donation-amount">
+                            <?= number_format($amount) ?> FRW
+                        </span>
+
+                        <span class="donation-method">
+                            MoMo Pay
+                        </span>
+
+                    </a>
+
+                <?php endforeach; ?>
+
             </div>
-            <div class="accountNumber">
-                Account Number: 10401004600010
-            </div>
-            <div class="accountName">
-                Account Name: Fruits Of Love
-            </div>
-        </div>
-        </div>
-                 
-                
-            
-
 
         </div>
 
-        <div class="methods-details">
-            For MoMo Click on the button <p>
-            <p>
-            <ul>
-                <li>Receiver Name: Eric</li>
-            </ul>
-        </div>
-    </section>
+    </div>
 
+</div>
 
     <!-- Mobile view Menu links -->
     <section class="mobile-menu" id="mobile-menu">
@@ -175,7 +194,7 @@
                 Imbuto z'urukundo is a family of young people united by love and compassion. We support vulnerable
                 children and communities through service, education, and empowerment.
             </div>
-            <a href="fol/about.html#about">Learn More</a>
+            <a href="html/about.html#about">Learn More</a>
         </div>
 
         <div class="card" id="activities">
@@ -191,7 +210,7 @@
                 <li><i class="far fa-circle-check"></i>Environment protection</li>
 
             </div>
-            <a href="fol/about.html#activities">Learn More</a>
+            <a href="html/about.html#activities">Learn More</a>
         </div>
         <div class="card" id="gallery">
             <div class="head">
@@ -201,22 +220,22 @@
             <div class="gallery">
 
                 <div class="item big">
-                    <a href="6.jpg" target="_blank" rel="noopener noreferrer"><img src="6.jpg" alt=""></a>
+                    <a href="images/6.jpg" target="_blank" rel="noopener noreferrer"><img src="images/6.jpg" alt=""></a>
                 </div>
 
                 <div class="item">
-                    <a href="3.jpg" target="_blank" rel="noopener noreferrer"><img src="3.jpg" alt=""></a>
+                    <a href="images/3.jpg" target="_blank" rel="noopener noreferrer"><img src="images/3.jpg" alt=""></a>
                 </div>
 
                 <div class="item">
-                    <a href="4.jpg" target="_blank" rel="noopener noreferrer"><img src="4.jpg" alt=""></a>
+                    <a href="images/4.jpg" target="_blank" rel="noopener noreferrer"><img src="images/4.jpg" alt=""></a>
                 </div>
 
                 <div class="item">
-                    <a href="5.jpeg" target="_blank" rel="noopener noreferrer"><img src="5.jpeg" alt=""></a>
+                    <a href="images/5.jpeg" target="_blank" rel="noopener noreferrer"><img src="images/5.jpeg" alt=""></a>
                 </div>
                 <div class="item">
-                    <a href="1.jpg" target="_blank" rel="noopener noreferrer"><img src="1.jpg" alt=""></a>
+                    <a href="images/1.jpg" target="_blank" rel="noopener noreferrer"><img src="images/1.jpg" alt=""></a>
                 </div>
 
             </div>
@@ -284,7 +303,7 @@
 
 
             </div>
-            <a href="fol/about.html#leaders">Learn More</a>
+            <a href="html/about.html#leaders">Learn More</a>
 
         </div>
     </section>
@@ -425,7 +444,7 @@
         </div>
 
         <div class="copyRight">
-            &copy 2024 Imbuto Z'urukundo. All Right Reserved.
+            &copy <?= date("Y"); ?> Imbuto Z'urukundo. All Right Reserved.
         </div>
     </section>
 
@@ -447,7 +466,7 @@
     </section>
 
 
-    <script src="scripts.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>

@@ -1,5 +1,5 @@
 const donate = document.getElementById('donate');
-const methods = document.getElementById('methods');
+const donationModel = document.getElementById('donationModel');
 const show_menu = document.getElementById('show-menu');
 const close_menu = document.getElementById('close-menu');
 const mobile_menu = document.getElementById('mobile-menu');
@@ -10,8 +10,7 @@ const main = document.getElementById('main');
 
 //Show and hide Mobile menu function
 function showMenu(){
-
-    if (mobile_menu.style.display === 'none' ||mobile_menu.style.display === ''){
+    if (mobile_menu.style.display === 'none' || mobile_menu.style.display === ''){
         mobile_menu.style.display = 'block';
 
     }
@@ -23,12 +22,12 @@ function showMenu(){
 
 
 
-//Show or Hide Donate methods
-function showHide(){
+//Show or Hide Donate donationModel
+function showDonationModal(){
 
     if(donate){
-        if (methods.style.display === 'none' || methods.style.display === '') {
-            methods.style.display = 'block';
+        if (donationModel.style.display === 'none' || donationModel.style.display === '') {
+            donationModel.style.display = 'flex';
             mobile_menu.style.display = 'none';
             joinCard.style.display = 'none';
             main.style.opacity='0.1';
@@ -36,7 +35,7 @@ function showHide(){
             
         }
         else {
-            methods.style.display = 'none';
+            donationModel.style.display = 'none';
             main.style.opacity = '1';
         }
 
@@ -49,7 +48,7 @@ menu.forEach(function(member){
     member.addEventListener('click', function(){
         mobile_menu.style.display='none';
         joinCard.style.display = 'none';
-        methods.style.display = 'none';
+        donationModel.style.display = 'none';
     });
 });
 
@@ -75,7 +74,7 @@ pcMenu.forEach((member) =>{
 function showJoinCard(){
     if (joinCard.style.display === 'none' || joinCard.style.display === ''){
         joinCard.style.display= 'flex';
-        methods.style.display = 'none';
+        donationModel.style.display = 'none';
     }
     else{
         joinCard.style.display = 'none';
