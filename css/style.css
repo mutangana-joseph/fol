@@ -15,7 +15,7 @@ html{
     font-family:Arial, Helvetica, sans-serif;
 }
 
-#about, #activities, #motto, #joinUs, #leaders, #gallery, #members, #mission, #vision, #contact{
+#about, #activities, #motto, #joinUs, #leaders, #gallery, #leaders, #mission, #vision, #contact{
     scroll-margin-top: 70px;
 }
 
@@ -151,7 +151,7 @@ a{
     top: 0;
     background-color: white;
     height: 100vh;
-    background-image: url('images/5.jpeg');
+    background-image: url('../images/5.jpeg');
     background-position: center;
     background-size: cover;
     
@@ -288,7 +288,7 @@ a{
     animation: donationAppear 0.25s ease;
 }
 
-
+#leaders
 /* =========================
    HEADER
 ========================= */
@@ -477,7 +477,7 @@ a{
     justify-content: space-between;
     position: relative;
     height: 45vh;
-    background-image: url("images/6.jpg");
+    background-image: url("../images/6.jpg");
     background-size: cover;
     background-position: center;
     
@@ -773,7 +773,7 @@ a{
     height: 100%;
 }
 
-.links-content #members{
+.links-content #leaders{
     position: relative;
     
    
@@ -815,19 +815,19 @@ a{
    
 }
 
-.links-content #members .row ul .name, .links-content #members .row ul .role{
+.links-content #leaders .row ul .name, .links-content #leaders .row ul .role{
     font-size: x-small;
     white-space: nowrap;
     
 }
 
-.links-content #members .row ul .name{
+.links-content #leaders .row ul .name{
     font-size: x-small;
     margin-top: 5%;
     color: #7c6f6f;
 }
 
-.links-content #members img {
+.links-content #leaders img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -1103,7 +1103,7 @@ a{
     position: fixed;
     bottom: 0;
     z-index: 8;
-    background-color: #222;
+    background-color: white;
     width: 100%;
     display: none;
     flex-direction: column;
@@ -1116,7 +1116,7 @@ a{
 
 .joinUs .head{
     position: relative;
-    background-color: white;
+    background-color: #E91E63;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -1124,7 +1124,7 @@ a{
     font-size: x-large;
     padding: 10px;
     margin:0 20px;
-    color: var(--primary-color);
+    color: white;
     font-weight: bolder;
 }
 
@@ -1136,14 +1136,21 @@ a{
     margin-left: auto;
     margin-right: 3rem;
     cursor: pointer;
-    font-size: 40px;
-    color: #222;
+    color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding: 3px;
+    background-color: #D81B60;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
 .joinUs .head  li i{
     position: relative;
-    color: var(--primary-color);
+    color: white;
     margin-right: auto;
 }
 

@@ -54,7 +54,7 @@
 
 
 .hero{
-    background-image: url(/2.jpg);
+    background-image: url(../images/2.jpg);
     height: 50vh;
     display: none;
 }
@@ -64,7 +64,7 @@
 }
 
 .mobile-menu{
-    background-image: url(/8.jpg);
+    background-image: url(../images/8.jpg);
 }
 
 .about{

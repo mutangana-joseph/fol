@@ -15,7 +15,7 @@
 
     <!-- Header Section -->
     <section class="header">
-        <a href="index.html">
+        <a href="index.php">
             <div class="logo">
                 <i class="fas fa-apple-alt"></i>
                 <ul>
@@ -124,7 +124,7 @@ $amounts = [
                 </ul>
             </div>
             <ul class="menu-links">
-                <li class="menu"><a href="index.html">Home</a></li>
+                <li class="menu"><a href="index.php">Home</a></li>
                 <li class="menu"><a href="#about">About Us</a></li>
                 <li class="menu"><a href="#activities">Activities</a></li>
                 <li class="menu"><a href="#gallery">Gallery</a></li>
@@ -160,8 +160,7 @@ $amounts = [
                 <div class="spreadButtons">
                     <button class="join-us" id="join-us" onclick="showJoinCard()">Join Us <i
                             class="fas fa-users"></i></button>
-
-                    <a href="/fol/about.html"><button class="learn-more" id="learn-more">Learn More <i
+                    <a href="pages/about.php"><button class="learn-more" id="learn-more">Learn More <i
                                 class="fas fa-arrow-right"></i></button></a>
                 </div>
             </div>
@@ -194,7 +193,7 @@ $amounts = [
                 Imbuto z'urukundo is a family of young people united by love and compassion. We support vulnerable
                 children and communities through service, education, and empowerment.
             </div>
-            <a href="html/about.html#about">Learn More</a>
+            <a href="pages/about.php#about">Learn More</a>
         </div>
 
         <div class="card" id="activities">
@@ -210,7 +209,7 @@ $amounts = [
                 <li><i class="far fa-circle-check"></i>Environment protection</li>
 
             </div>
-            <a href="html/about.html#activities">Learn More</a>
+            <a href="pages/about.php#activities">Learn More</a>
         </div>
         <div class="card" id="gallery">
             <div class="head">
@@ -242,14 +241,14 @@ $amounts = [
             <a href="https://amafoto16.pixieset.com/mycollection/" target="_blank">View More Photos</a>
         </div>
 
-        <div class="card" id="members">
+        <div class="card" id="leaders">
             <div class="head">
                 <i class="fas fa-users"></i>
                 <li>Our Leaders</li>
             </div>
             <div class="row">
                 <ul>
-                    <li><img src="/leaders/Clement.jpeg" alt="Member image"></li>
+                    <li><img src="leaders/Clement.jpeg" alt="Member image"></li>
                     <li class="role">President</li>
                     <li class="name">Clement</li>
                 </ul>
@@ -259,43 +258,43 @@ $amounts = [
                     <li class="name">NIYONSHUTI Ethienne</li>
                 </ul>
                 <ul>
-                    <li><img src="/leaders/Eric.jpeg" alt="Member image"></li>
+                    <li><img src="leaders/Eric.jpeg" alt="Member image"></li>
                     <li class="role">Secretary</li>
                     <li class="name">GASIGWA Eric</li>
                 </ul>
                 <ul>
-                    <li><img src="/leaders/UMWIZA Addis Ketsia.jpeg" alt="Member image"></li>
+                    <li><img src="leaders/UMWIZA Addis Ketsia.jpeg" alt="Member image"></li>
                     <li class="role">Assistant Secretary</li>
                     <li class="name">UMWIZA Addis K</li>
                 </ul>
                 <ul>
-                    <li><img src="/leaders/Noella.jpeg" alt="Member image"></li>
+                    <li><img src="leaders/Noella.jpeg" alt="Member image"></li>
                     <li class="role">Social Affair</li>
                     <li class="name">Noella</li>
                 </ul>
                 <ul>
-                    <li><img src="/leaders/Kevin.jpeg" alt="Member image"></li>
+                    <li><img src="leaders/Kevin.jpeg" alt="Member image"></li>
                     <li class="role">Media & Communications</li>
                     <li class="name">Kevin</li>
                 </ul>
                 <ul>
-                    <li><img src="/leaders/Hagenimana.jpeg" alt="Member image"></li>
+                    <li><img src="leaders/Hagenimana.jpeg" alt="Member image"></li>
                     <li class="role">Financial Auditor</li>
                     <li class="name">Hagenimana</li>
                 </ul>
                 <ul>
-                    <li><img src="/leaders/Uwonkunda Patience.jpeg" alt="Member image"></li>
+                    <li><img src="leaders/Uwonkunda Patience.jpeg" alt="Member image"></li>
                     <li class="role">Advisor</li>
                     <li class="name">Uwonkunda Patience</li>
                 </ul>
                 
                 <ul>
-                    <li><img src="/leaders/Tresor.jpeg" alt="Member image"></li>
+                    <li><img src="leaders/Tresor.jpeg" alt="Member image"></li>
                     <li class="role">New Member Entry</li>
                     <li class="name">HIRWA Tresor</li>
                 </ul>
                 <ul>
-                    <li><img src="/leaders/MUGISHA Belyse Tinah.jpeg" alt="Member image"></li>
+                    <li><img src="leaders/MUGISHA Belyse Tinah.jpeg" alt="Member image"></li>
                     <li class="role">New Member Entry</li>
                     <li class="name">MUGISHA Belyse T</li>
                 </ul>
@@ -303,7 +302,7 @@ $amounts = [
 
 
             </div>
-            <a href="html/about.html#leaders">Learn More</a>
+            <a href="pages/about.php#leaders">Learn More</a>
 
         </div>
     </section>
@@ -392,64 +391,6 @@ $amounts = [
     </section>
 </main>
 
-    <!-- footer -->
-    <section class="footer">
-        <div class="content">
-            <div class="logo">
-                <i class="fas fa-apple-alt"></i>
-                <ul>
-                    <li id="imbuto">imbuto</li>
-                    <li id="love">z'urukundo</li>
-                </ul>
-                <i class="fas fa-heart"></i>
-            </div>
-            <div class="group">
-                Spreading Love, Hope and <li></li>Compassion to build a better <li></li>future for all.
-            </div>
-
-            <div class="group">
-                <h1>Quick Links</h1>
-                <div class="links">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#activities">Activities</a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="#gallery">Gallery</a></li>
-                        <li><a href="#members">Leaders</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="group">
-                <h1>Connect With Us</h1>
-                <div class="connect">
-                    <ul id="sociaLinks">
-                        <li><a target="_blank" href="https://www.instagram.com/fruitsoflove2023"> <i class="fab fa-instagram"></i></a></li>
-                        <li><a target="_blank" href="https://youtu.be/IiTn5cCmQX4?si=cU6zID1H0Fi7QW4-"> <i class="fab fa-youtube"></i></a></li>
-                        <li><a target="_blank" href="https://whatsapp.com/channel/0029Vb6WGap2ER6gyPqBRe3V"> <i class="fab fa-whatsapp"></i></a></li>
-                        <li><a target="_blank" href="https://www.tiktok.com/@fruits_of_love?_r=1&_t=ZS-96XdLd0JZY5"><i class="fab fa-tiktok"></i></a></li>
-                    </ul>
-
-                    <ul>
-                        <i class="fas fa-phone"></i>
-                        <a href="tel:+250786951706">+250 786 951 706</a> /
-                        <a href="tel:+250795450568">+250 795 450 568</a>
-                        
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="copyRight">
-            &copy <?= date("Y"); ?> Imbuto Z'urukundo. All Right Reserved.
-        </div>
-    </section>
-
-
-
     <!-- Join us card -->
     <section class="joinUs" id="joinCard">
         <div class="head">
@@ -464,6 +405,9 @@ $amounts = [
            
         </ul>
     </section>
+
+
+    <?php require "includes/footer.php"; ?>
 
 
     <script src="js/scripts.js"></script>

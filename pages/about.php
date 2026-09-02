@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/style/about.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/about.css">
     <title>About Fruits Of Love</title>
 </head>
 
@@ -17,7 +17,7 @@
     <section class="header">
         <a href="about.html">
             <div class="logo">
-                <img src="/logo-no-bg.png" alt="">
+                <img src="../images/logo-no-bg.png" alt="">
                 <div class="imbuto">
                     Imbuto
                     <div class="love">Z'urukundo</div>
@@ -32,12 +32,12 @@
         </div>
         <!-- Computer view Menu links -->
         <div class="nav-links">
-            <li><a href="/index.html" class="pc-menu" id="home">Home</a></li>
+            <li><a href="../index.php" class="pc-menu" id="home">Home</a></li>
             <li><a href="about.html" class="pc-menu" id="about">About Us</a></li>
             <li><a href="#mission" class="pc-menu">Our Mission</a></li>
             <li><a href="#vision" class="pc-menu">Our Vission</a></li>
             <li><a href="#activities" class="pc-menu">Our Activities</a></li>
-            <li><a href="/index.html#contact" class="pc-menu">Contact</a></li>
+            <li><a href="../index.php#contact" class="pc-menu">Contact</a></li>
         </div>
 
         <div class="show-menu" id="show-menu" onclick="showMenu()"><i class="fas fa-bars"></i></div>
@@ -56,7 +56,7 @@
                 </ul>
             </div>
             <ul class="menu-links">
-                <li><a href="/index.html" class="menu" id="home">Home</a></li>
+                <li><a href="../index.php" class="menu" id="home">Home</a></li>
                 <li><a href="about.html" class="menu">About Us</a></li>
 
                 <li><a href="#mission" class="menu">Our Mission</a></li>
@@ -65,7 +65,7 @@
                 <li><a href="#joinUs" class="menu">Join Us</a></li>
                 <li><a href="#motto" class="menu">Our Motto</a></li>
                 <li><a href="#leaders" class="menu">Meet Our Leaders</a></li>
-                <li><a href="/index.html#contact" class="menu">Contact</a></li>
+                <li><a href="../index.php#contact" class="menu">Contact</a></li>
             </ul>
         </div>
     </section>
@@ -90,7 +90,7 @@
 
     <!-- Section About -->
     <section class="about">
-        <img src="/2.jpg" alt="" id="big-img">
+        <img src="../images/2.jpg" alt="" id="big-img">
         <div class="about-content">
 
             <!-- About fruits of love family -->
@@ -228,14 +228,14 @@
                 <div class="card-content">
                     
                     <div class="row">
-                        <img src="/leaders/Clement.jpeg" alt="">
+                        <img src="../leaders/Clement.jpeg" alt="">
                         <div class="name">NIYONKURU Clement</div>
                         <div class="role">Founder and President</div>
                         <div class="desc">Leads the family with passion and ensures our mission stays strong.
                         </div>
                     </div>
                     <div class="row">
-                        <img src="/leaders/Eric.jpeg" alt="">
+                        <img src="../leaders/Eric.jpeg" alt="">
                         <div class="name">GASIGWA Eric</div>
                         <div class="role">Co founder and Securtery Operations Manager</div>
                         <div class="desc">Manages daily operations and keeps the family running smoothly.
@@ -243,7 +243,7 @@
                     </div>
 
                     <div class="row">
-                        <img src="/leaders/Hagenimana.jpeg" alt="">
+                        <img src="../leaders/Hagenimana.jpeg" alt="">
                         <div class="name">HAGENIMANA Lyvin</div>
                         <div class="role">Financial Auditor</div>
                         <div class="desc">Responsible for monitoring and reviewing the financial activities of FRUITS OF
@@ -254,14 +254,14 @@
                     </div>
 
                     <div class="row">
-                        <img src="/leaders/Kevin.jpeg" alt="">
+                        <img src="../leaders/Kevin.jpeg" alt="">
                         <div class="name">ISHIMWE Kevin</div>
                         <div class="role">Media & Communications</div>
                         <div class="desc">Ensures our story is heard and shared with love across platforms.
                         </div>
                     </div>
                     <div class="row">
-                        <img src="/leaders/Noella.jpeg" alt="">
+                        <img src="../leaders/Noella.jpeg" alt="">
                         <div class="name">NISHIMWE Noella</div>
                         <div class="role">Social Affairs commission</div>
                         <div class="desc">Responsible for checking in on members
@@ -276,65 +276,8 @@
 
 
 
-    <!-- footer -->
-    <section class="footer">
-        <div class="content">
-            <div class="logo">
-                <i class="fas fa-apple-alt"></i>
-                <ul>
-                    <li id="imbuto">imbuto</li>
-                    <li id="love">z'urukundo</li>
-                </ul>
-                <i class="fas fa-heart"></i>
-            </div>
-            <div class="group">
-                Spreading Love, Hope and <li></li>Compassion to build a better <li></li>future for all.
-            </div>
-    
-            <div class="group">
-                <h1>Quick Links</h1>
-                <div class="links">
-                    <ul>
-                        <li><a href="/index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="#activities">Activities</a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="/index.html#gallery">Gallery</a></li>
-                        <li><a href="#leaders">Leaders</a></li>
-                        <li><a href="/index.html#contact">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-    
-            <div class="group">
-                <h1>Connect With Us</h1>
-                <div class="connect">
-                    <ul id="sociaLinks">
-                        <li><a href="https://www.instagram.com/fruitsoflove2023"> <i class="fab fa-instagram"></i></a></li>
-                        <li><a href="https://youtu.be/IiTn5cCmQX4?si=cU6zID1H0Fi7QW4-"> <i class="fab fa-youtube"></i></a>
-                        </li>
-                        <li><a href="https://whatsapp.com/channel/0029Vb6WGap2ER6gyPqBRe3V"> <i
-                                    class="fab fa-whatsapp"></i></a></li>
-                        <li><a href="https://www.tiktok.com/@fruits_of_love?_r=1&_t=ZS-96XdLd0JZY5"><i
-                                    class="fab fa-tiktok"></i></a></li>
-                    </ul>
-    
-                    <ul>
-                        <i class="fas fa-phone"></i>
-                        <a href="tel:+250786951706">+250 786 951 706</a> /
-                        <a href="tel:+250795450568">+250 795 450 568</a>
-    
-                    </ul>
-                </div>
-            </div>
-        </div>
-    
-        <div class="copyRight">
-            &copy 2024 Imbuto Z'urukundo. All Right Reserved.
-        </div>
-    </section>
-    <script src="/scripts.js"></script>
+    <?php require "../includes/footer.php"; ?>
+    <script src="../js/scripts.js"></script>
 </body>
 
 </html>
