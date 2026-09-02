@@ -32,7 +32,7 @@
             <li><a href="#about" class="pc-menu">About Us</a></li>
             <li><a href="#activities" class="pc-menu">Activities</a></li>
             <li><a href="#gallery" class="pc-menu">Gallery</a></li>
-            <li><a href="#members" class="pc-menu">Our Leaders</a></li>
+            <li><a href="#leaders" class="pc-menu">Our Leaders</a></li>
             <li><a href="#contact" class="pc-menu">Contact</a></li>
         </div>
         <div class="donate" id="donate" onclick="showDonationModal()">Donate <i class="far fa-heart"></i></div>
@@ -128,7 +128,7 @@ $amounts = [
                 <li class="menu"><a href="#about">About Us</a></li>
                 <li class="menu"><a href="#activities">Activities</a></li>
                 <li class="menu"><a href="#gallery">Gallery</a></li>
-                <li class="menu"><a href="#members">Our Leaders</a></li>
+                <li class="menu"><a href="#leaders">Our Leaders</a></li>
                 <li class="menu"><a href="#contact">Contact</a></li>
                 <li onclick="showHide()"><a href="#methods">Donate <i class="far fa-heart"></i></a></li>
             </ul>
