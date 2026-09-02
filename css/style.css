@@ -288,19 +288,16 @@ a{
     animation: donationAppear 0.25s ease;
 }
 
-#leaders
+
 /* =========================
    HEADER
 ========================= */
 
 .donation-header {
     display: flex;
-
     align-items: center;
     justify-content: space-between;
-
     padding: 22px 25px;
-
     border-bottom: 1px solid #eee;
 }
 
